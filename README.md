@@ -146,5 +146,5 @@ This prints the table above and saves every prediction to `eval_results.csv`.
 
 ## Credits
 
-- Dataset: DravidianCodeMix (Chakravarthi et al.). <!-- Add the full citation here. -->
+- Dataset: github.com/bharathichezhiyan/DravidianCodeMix-Dataset. <!-- Chakravarthi, B. R., Priyadharshini, R., Muralidaran, V., Jose, N., Suryawanshi, S., Sherly, E., & McCrae, J. P. (2022). Dravidiancodemix: Sentiment analysis and offensive language identification dataset for dravidian languages in code-mixed text. Language Resources and Evaluation, 56(3), 765-806. -->
 - Base model: `l3cube-pune/tamil-bert` (L3Cube).
