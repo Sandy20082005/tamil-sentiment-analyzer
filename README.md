@@ -124,7 +124,7 @@ tamil_sentiment_app/
     └── model.safetensors
 ```
 
-The fine-tuned weights are not published yet, so the web app and evaluate.py need your own fine-tuned model in a model/ folder. The model was fine-tuned from l3cube-pune/tamil-bert on DravidianCodeMix (see “Model and training” above). -->
+The fine-tuned weights are not published yet, so the web app and evaluate.py need your own fine-tuned model in a model/ folder. The model was fine-tuned from l3cube-pune/tamil-bert on DravidianCodeMix (see “Model and training” above).
 
 Start the web app:
 
@@ -146,5 +146,6 @@ This prints the table above and saves every prediction to `eval_results.csv`.
 
 ## Credits
 
-- Dataset: github.com/bharathichezhiyan/DravidianCodeMix-Dataset. <!-- Chakravarthi, B. R., Priyadharshini, R., Muralidaran, V., Jose, N., Suryawanshi, S., Sherly, E., & McCrae, J. P. (2022). Dravidiancodemix: Sentiment analysis and offensive language identification dataset for dravidian languages in code-mixed text. Language Resources and Evaluation, 56(3), 765-806. -->
+- Dataset: github.com/bharathichezhiyan/DravidianCodeMix-Dataset.
+- Dataset paper: Chakravarthi, B. R., Priyadharshini, R., Muralidaran, V., Jose, N., Suryawanshi, S., Sherly, E., & McCrae, J. P. (2022). Dravidiancodemix: Sentiment analysis and offensive language identification dataset for dravidian languages in code-mixed text. Language Resources and Evaluation, 56(3), 765-806. https://doi.org/10.1007/s10579-022-09583-7
 - Base model: `l3cube-pune/tamil-bert` (L3Cube).
