@@ -4,7 +4,7 @@ Sentiment classification for **Tamil–English code-mixed (Tanglish) YouTube com
 
 The model labels a comment as **Positive**, **Negative** or **Mixed Feelings** and shows the confidence for each class.
 
-<!-- Add a screenshot of the web app here, e.g. ![demo](screenshots/demo.png) -->
+![demo](screenshots/demo.png)
 
 ---
 
@@ -124,7 +124,7 @@ tamil_sentiment_app/
     └── model.safetensors
 ```
 
-The `model/` folder is not included in this repository because of its size. <!-- Add the download link here, for example a Hugging Face model page. -->
+The fine-tuned weights are not published yet, so the web app and evaluate.py need your own fine-tuned model in a model/ folder. The model was fine-tuned from l3cube-pune/tamil-bert on DravidianCodeMix (see “Model and training” above). -->
 
 Start the web app:
 
